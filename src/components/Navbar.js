@@ -4,13 +4,13 @@ import { FaBars } from "react-icons/fa";
 const Navbar = () => {
   const navbarOptions = (
     <React.Fragment>
-      <li className="mx-2">
+      <li className="mx-2 my-2 lg:my-0">
         <a href='#skills' className="btn btn-outline">Skills</a>
       </li>
-      <li className="mx-2">
+      <li className="mx-2 my-2 lg:my-0">
         <a href='#projects' className="btn btn-outline">Projects</a>
       </li>
-      <li className="mx-2">
+      <li className="mx-2 my-2 lg:my-0">
         <a href='#footer' className="btn btn-outline">Contact Info</a>
       </li>
     </React.Fragment>

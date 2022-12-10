@@ -1,4 +1,5 @@
 import React from "react";
+import { Typewriter } from 'react-simple-typewriter'
 
 const Skillset = () => {
   const Skills = [
@@ -58,7 +59,7 @@ const Skillset = () => {
   ];
 
   return (
-    <div id="skills" className="mx-10 my-12 pt-12 justify-around flex flex-col md:flex-row">
+    <div id="skills" className="mx-10 my-12 pt-6 justify-around flex flex-col md:flex-row">
       <div className="my-16 w-5/6 text-3xl font-bold md:w-3/6">
         Skill Set
         <div className=" bg-black bg-opacity-70  grid grid-cols-2 gap-4 md:grid-cols-6 mb-6">
@@ -73,6 +74,17 @@ const Skillset = () => {
           loop
           autoplay
         ></lottie-player>
+        <div className="text-3xl text-lime-500 font-bold">
+        <Typewriter
+            words={['Eat', 'Sleep', 'Code', 'Repeat!']}
+            loop={true}
+            cursor
+            cursorStyle='|'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          />
+        </div>
       </div>
     </div>
   );
