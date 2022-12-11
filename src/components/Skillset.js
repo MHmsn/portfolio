@@ -62,11 +62,11 @@ const Skillset = () => {
     <div id="skills" className="mx-10 my-12 pt-6 justify-around flex flex-col md:flex-row">
       <div className="my-16 w-5/6 text-3xl font-bold md:w-3/6">
         Skill Set
-        <div className=" bg-black bg-opacity-70  grid grid-cols-2 gap-4 md:grid-cols-6 mb-6">
+        <div className="  grid grid-cols-2 gap-4 md:grid-cols-6 mb-6">
             {Skills.map((skill,i) => <div key={i} className="w-20 md:w-24 text-lg mx-auto">{skill.element}{skill.name}</div>)}
         </div>
       </div>
-      <div className=" md:ml-10 pt-10 b-48 w-full md:w-1/4">
+      <div className=" md:ml-10 pt-10 b-48 w-full rounded-xl md:w-1/4">
         <lottie-player
           src="https://assets5.lottiefiles.com/packages/lf20_ctaacxzb.json"
           background="transparent"
