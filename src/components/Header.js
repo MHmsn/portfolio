@@ -10,6 +10,7 @@ const Header = () => {
   return (
     <div className=" min-h-screen mx-0 -mt-16 mb-8 w-full flex justify-around items-center  flex-col md:flex-row-reverse">
       <div className="mt-20 w-5/6 md:w-2/6">
+    <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1506346" style='border:none;'></iframe>
         <h4 className=" text-4xl font-bold sm:text-5xl lg:text-6xl mb-5">
           <span className="text-violet-500">Hello</span> Everyone,
         </h4>
