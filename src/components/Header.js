@@ -10,7 +10,6 @@ const Header = () => {
   return (
     <div className=" min-h-screen mx-0 -mt-16 mb-8 w-full flex justify-around items-center  flex-col md:flex-row-reverse">
       <div className="mt-20 w-5/6 md:w-2/6">
-    <script src="https://tryhackme.com/badge/t/683a939b26eb05f1c6a717bbf3d5a2afa26791c89ed3cf263b5189a085e7db33fad5ea419362d44f5a796dd013c9d758?theme=dark"></script>
      <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1506346" title="TryHackMe Badge"
       className="mx-auto rounded-box"
       loading="lazy"
